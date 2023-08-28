@@ -1,0 +1,80 @@
+/* Write your CSS here */
+
+.main-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/random-no-generator-bg.png');
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto';
+}
+
+.card-container {
+  background-color: white;
+  border: 1px solid #e4ebf3;
+  border-radius: 10px;
+  box-shadow: 0px 4px 16px 0px #eaebed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  padding: 36px;
+}
+
+@media screen and (min-width: 768px) {
+  .card-container {
+    width: 35%;
+    max-width: 500px;
+  }
+}
+
+.heading {
+  color: #0b69ff;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 24px;
+  }
+}
+
+.para {
+  color: #333333;
+  font-size: 14px;
+}
+
+@media screen and (min-width: 768px) {
+  .para {
+    font-size: 18px;
+  }
+}
+
+.btn {
+  background-color: #0b69ff;
+  color: white;
+  border-width: 0;
+  border-radius: 8px;
+  font-size: 12px;
+  padding: 8px 16px;
+  font-weight: 500;
+  outline: none;
+  cursor: pointer;
+  margin-top: 14px;
+}
+
+.num-para {
+  color: #0b69ff;
+  font-size: 40px;
+  font-weight: bold;
+  margin-top: 24px;
+}
+
+@media screen and (min-width: 768px) {
+  .num-para {
+    font-size: 48px;
+  }
+}
